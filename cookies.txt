@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.srcpp.ru	TRUE	/	FALSE	1999999999	ipp_uid2	QNBAEc70bTclJIwG/6OYmkcNeNDLBmarlBB2yGw==
+www.srcpp.ru	TRUE	/	FALSE	1999999999	ipp_uid1	1538288689316
+www.srcpp.ru	TRUE	/	FALSE	1999999999	rerf	AAAAAFuwbDGPWmfFAwtJAg==
+www.srcpp.ru	TRUE	/	FALSE	1999999999	stat_lp	MjAxOC0wOS0zMA%3D%3D
+
