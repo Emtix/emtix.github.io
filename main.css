@@ -1,0 +1,1234 @@
+html {
+    position: relative;
+    min-height: 100%;
+    padding:0;
+    margin:0;
+}
+
+body {
+    font-family: 'Roboto',  sans-serif;
+    color:#000;
+    line-height:1.3;
+    font-size:18px;
+    padding:0;
+    margin:0 0 140px 0;
+}
+
+p {
+    margin:20px 0;
+}
+.new-section {
+    padding:50px 0 50px 0;
+    border-top:4px double #8f8f8f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height:1.2;
+    margin-top:0;
+}
+h2 {
+    font-size: 36px;
+    margin: 0 0 30px 0;
+}
+h3 {
+    font-size:30px;
+
+}
+h4 {
+    font-size:18px;
+    margin:15px 0 10px 0;
+    font-weight:700;
+}
+/* Buttons */
+
+
+.btn-warning {
+    background-color: #ff9400;
+}
+.order-btn {
+     box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);
+     border-radius: 10px;
+     padding:6px 10px;
+     text-transform:uppercase;
+     color:#fff;}
+
+.order-btn p {
+    border-top:2px solid #fff;
+    border-bottom:2px solid #fff;
+    margin:0;
+    font-weight:700;
+}
+.dark-order-btn, .dark-order-btn:hover, .video-order-btn:active, .video-order-btn:focus  {
+    border-color: #2c2c34;
+    background: #2c2c34 url("urn:scrapbook:download:error:http://goodmoons.ru/tvg/images/mbg2.png") repeat;
+    color:#fff;
+    margin:40px auto 0 auto;
+}
+.dark-order-btn:hover {
+    background-color:#2b3827;
+    border-color: #2b3827;
+}
+.dark-order-btn p {
+    color:#fff;
+    letter-spacing:1px;
+    padding:6px 18px 5px 18px;
+    font-size:25px;
+}
+.light-order-btn, .light-order-btn:hover, .light-order-btn:active, .light-order-btn:focus {
+    border-color: #ff9400;
+    background-color: #ff9400;
+    color:#fff;
+    margin:20px auto 0 auto;
+}
+.light-order-btn:hover {
+    background-color: #ff8905;
+    border-color: #ff8905;
+}
+.light-order-btn p {
+    color:#000;
+    padding:5px 14px 4px 14px;
+    font-size:25px;
+}
+/*Header */
+.top-navbar {
+    background: transparent url("urn:scrapbook:download:error:http://goodmoons.ru/tvg/images/top-opacity-bg.png") repeat;
+    padding:3px 0;
+}
+
+.top-phone {
+    margin-top:10px;
+    background: transparent url("urn:scrapbook:download:error:http://goodmoons.ru/tvg/images/call.png") no-repeat scroll right top;
+    background-size:contain;
+    height:33px;
+}
+.order-call, .order-call:hover, .order-call:active, .order-call:focus {
+    text-transform: uppercase;
+    margin: 5px 0;
+    border:2px solid #fff;
+    background-color:transparent;
+    color:#fff;
+    font-size:20px;
+}
+
+.order-call:hover {
+    color: #e6e6e6;
+    background-color: #000;
+}
+.modal-call {
+    max-width:400px !important;
+    text-align:center;
+}
+.modal-caption {
+    font-size:18px;
+    margin:0 0 20px 0;
+    line-height:1.1;
+}
+.modal-call .close{
+    color:#fff;
+    font-size:25px;
+    opacity:1;
+}
+.modal-call .modal-header {
+    background-color: #53674d;
+    color:#fff;
+    font-weight:700;
+}
+.modal-content {
+    border-radius:0;
+}
+.modal-call .btn {
+    border-radius:3px;
+}
+.top-header {
+    background: #4c6345 url("jeep-bg-3.jpg") no-repeat scroll center center;
+    background-size:cover;
+    color:#fff;
+    font-weight:400;
+    padding:0;
+}
+.amst-bg {
+    background: transparent url("1-1.png") no-repeat scroll right top;
+    background-size:contain;
+}
+
+h1.main-title {
+    font-size:57px;
+    margin:50px 0 0 0;
+    text-align:left;
+    line-height:1.1;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+h1.main-title strong {
+    font-weight:700;
+}
+.top-slogan-text {
+    line-height:1.1;
+    font-size:34px;
+    font-weight:400;
+    text-align:center;
+    margin:50px 0 0 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.top-sale {
+    margin:50px 0 30px 0;
+}
+.sale-block {
+    background: transparent url("cirkue.png") no-repeat scroll left center;
+    background-size:contain;
+        height: 135px;
+    padding:0;
+}
+.top-sale p {
+    color:#da1721;
+    text-align:left;
+    margin:5px 0 0 0;
+    padding:0;
+    font-size:27px;
+    line-height:1;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* Navbar */
+.middle-menu {
+    margin-bottom:0;
+    background: #2b3827 url("urn:scrapbook:download:error:http://goodmoons.ru/tvg/images/mbg2.png") repeat;
+    border-radius: 0;
+    border-color: #2b3827;
+}
+.navbar-header {
+    float:right;
+}
+
+.btn-order, .btn-order:focus, .btn-order:hover, .btn-order:active {
+    border: 2px solid #fff;
+    color:#fff;
+    font-size:20px;
+    text-transform: uppercase;
+    margin:3px 50px 3px 0;
+    background-color: #2c2c35;
+}
+.btn-order:hover {
+    background-color: #2b3827;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color:#fff;
+    font-size:22px;
+    text-transform:uppercase;
+    font-weight:400;
+    text-decoration: underline;
+    margin-right:10px;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+   color:#ccc;
+}
+/* Video Block */
+.video-block {
+    border-top:none;
+    padding-top:60px;
+}
+.video-col {
+    padding-top:10px;
+}
+.video-features-ul {
+    font-weight:700;
+    padding-top:10px;
+}
+.video-block h2 {
+    margin-bottom:20px;
+}
+
+/*Description Block */
+.desc-block {
+    background: transparent url("brick-bg.png") repeat;
+    padding:0;
+    margin-top:20px;
+    border-top:4px double #8f8f8f;
+}
+.soldier-col {
+    padding:25px 15px 0 15px;
+}
+.desc-col {
+    padding:30px 15px 15px 15px;
+}
+
+.desc-col ul {
+    padding:0;
+}
+.desc-col ul li {
+    list-style:none;
+    padding:0 0 15px 50px;
+    margin:0;
+    background: transparent url("desc-ul.png") no-repeat top left;
+    font-size:18px;
+}
+.desc-col p {
+    font-weight:700;
+    font-size:18px;
+    margin:0 0 20px 0;
+}
+/*Gallery Block */
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image:none;
+}
+.carousel-thumb-list2 {
+    padding:5px 10px;
+}
+.carousel-thumb-list .carousel-thumb, .carousel-thumb-list2 .carousel-thumb {
+  padding:5px;
+}
+.carousel-thumb-list .thumbnail, .carousel-thumb-list2 .thumbnail, .carousel .thumbnail {
+    margin-bottom:0;
+}
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+    border-color: #4C6345;
+}
+
+
+/*Delivery Block */
+.delivery-block {
+    font-size:15px;
+}
+.delivery-block .row {
+    background: transparent url("delivery-bg.png") right center no-repeat;
+    background-size: contain;
+}
+
+.delivery-block p {
+    margin:10px 0;
+}
+.delivery-block .blue-note {
+    color:#303bff;
+    font-weight:700;
+}
+
+
+/*Reveiws */
+
+.reviews-block .carousel-control {
+    width:25px;
+    background-color: #6e8966;
+    background-image:none;
+    opacity:1;
+}
+
+.reviews-block .carousel-inner {
+    min-height:340px;
+}
+.reviews-block .carousel-inner .item {
+    padding:0 35px;
+}
+.review {
+    text-align:center;
+    padding:20px;
+}
+.review img {
+    margin:10px auto;
+}
+.review-vk {
+    font-size:14px;
+    color: #4c4c4c;
+}
+.review-text {
+    text-align:left;
+    font-size:15px;
+    margin-top:10px;
+}
+.reviews-block .carousel-control .glyphicon-chevron-left,
+.reviews-block .carousel-control .glyphicon-chevron-right,
+.reviews-block .carousel-control .icon-prev,
+.reviews-block .carousel-control .icon-next {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
+/* Carousel Fade */
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+/*Features Block */
+
+.features-block ul {
+    padding:0;
+}
+.features-block ul li {
+    list-style:none;
+    padding:1px 0 15px 50px;
+    margin:0;
+    background: transparent url("feat-list.png") no-repeat top left;
+    font-size:15px;
+}
+.features-block ul li.first {
+    background: transparent url("feat-list-first.png") no-repeat top left;
+}
+.features-block ul li.last {
+    background: transparent url("feat-list-last.png") no-repeat top left;
+}
+
+.features-block .img-block {
+    text-align:center;
+    padding:25px 0;
+}
+.features-block .img-block img {
+    margin:0 auto;
+}
+/* Original Block */
+.original-block {
+   /* background:#ccc url("../images/why-bg3.jpg") repeat;*/
+    padding:30px 0 40px 0;
+}
+.original-block h2 {
+    margin-bottom:10px;
+}
+.original-block p {
+font-size:17px;
+}
+p.original-package {
+    color:#da1721;
+    font-weight:700;
+    font-size:19px;
+}
+p.original-company {
+
+    font-size:17px;
+}
+.orig-img {
+    margin:22px auto 0 auto;
+}
+
+/* Why Block */
+.col-why {
+    padding:0 0 0 45px;
+    font-size:16px;
+}
+.col-why strong {
+
+}
+.why-block h2 {
+    margin-bottom:15px;
+}
+.why-block h4 {
+    margin-bottom:20px;
+    font-size:22px;
+}
+.col-why-wrap {
+    padding:15px 30px 10px 15px;
+}
+.col-why-1 {
+    background:transparent url("41.png") no-repeat scroll left top;
+}
+.col-why-2 {
+    background:transparent url("39.png") no-repeat scroll left top;
+}
+.col-why-3 {
+    background:transparent url("46.png") no-repeat scroll left top;
+}
+.col-why-4 {
+    background:transparent url("38.png") no-repeat scroll left top;
+}
+.col-why-5 {
+    background:transparent url("42.png") no-repeat scroll left top;
+}
+.col-why-6{
+    background:transparent url("43.png") no-repeat scroll left top;
+}
+.col-why-7 {
+    background:transparent url("44.png") no-repeat scroll left top;
+}
+.col-why-8 {
+    background:transparent url("45.png") no-repeat scroll left top;
+}
+.col-why-9 {
+    background:transparent url("40.png") no-repeat scroll left top;
+}
+.col-why-10 {
+    background:transparent url("47.png") no-repeat scroll left top;
+}
+
+/* Action Block */
+.action-top-block {
+    background: transparent url("background-32.jpg") no-repeat scroll center center;
+    background-size:cover;
+    color:#fff;
+    padding:30px 0;
+}
+.action-title {
+   font-size:46px;
+    line-height:1.1;
+    margin-bottom:10px;
+}
+.sale-old-price {
+    font-size:22px;
+    text-decoration:line-through;
+    color: #cdcdcd;
+}
+.sale-new-price {
+    font-size:32px;
+    padding-top:10px;
+}
+.action-block {
+    background:#ccc url("urn:scrapbook:download:error:http://goodmoons.ru/tvg/images/action-bg.jpg") no-repeat scroll top center;
+    background-size:cover;
+    color:#FFF;
+    padding:10px 0 50px 0;
+}
+
+.action-block ul li{
+   font-size:16px;
+    padding:7px 0 7px 20px;
+    list-style:none;
+    background: transparent url("urn:scrapbook:download:error:http://goodmoons.ru/tvg/images/orange-arrow.png") no-repeat scroll center left;
+    text-align:left;
+    line-height:1.1;
+}
+.action-features {
+    font-weight:700;
+    font-size:22px;
+    padding:0 0 10px 40px;
+    text-align:left;
+}
+.red-sale {
+  color:#ED1C24;
+}
+.bonus-price {
+    text-decoration:line-through;
+    font-weight:400;
+    color: #979797;
+}
+.timer-wrapper2 {
+    background-color:transparent;
+    margin:20px 0;
+    font-family: "Exo 2", sans-serif;
+    line-height:1;
+}
+.bonus-bg {
+    background:transparent url("urn:scrapbook:download:error:http://goodmoons.ru/tvg/images/bonus.png") no-repeat scroll top left;
+    background-size:contain;
+    height:140px;
+}
+h2.bonus-title {
+    line-height:1;
+    font-family:"Roboto Condensed", sans-serif;
+    padding:30px 0 20px 0;
+}
+.limit-action {
+    color:#ff9400;
+    font-family:"Roboto Condensed", sans-serif;
+
+}
+
+/* Order Block */
+
+.form-block {
+    background-color: #53674d;
+    border-color: #53674d;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 0 0 16px rgba(86, 105, 74, 0.20), 0 0 16px rgba(86, 105, 74, 0.20);
+    width:360px;
+    padding:0;
+    margin:0 auto 50px auto;
+
+}
+.form-text {
+    text-align:center;
+    color:#fff;
+    line-height: 1.1;
+    font-family: 'Exo 2', sans-serif;
+}
+.form-title {
+    font-size:34px;
+    font-weight:700;
+    text-transform: uppercase;
+    padding-top: 15px;
+    letter-spacing:-1px;
+}
+.form-caption  {
+    font-size: 18px;
+    font-weight:300;
+    padding:10px;
+}
+.price-block {
+    background-color: #fff;
+    color:#bd3027;
+    line-height:1;
+    padding:10px 15px;
+}
+.usual-price, .sale-price {
+    background-color: #fff;
+    padding:0;
+    margin:0;
+}
+.usual-price {
+    padding-top:5px;
+}
+.price-caption {
+    font-size: 14px;
+}
+.usual-price .price-tag{
+    font-size:24px;
+    font-weight:700;
+    text-decoration: line-through;
+    letter-spacing: -1px;
+}
+.sale-price  .price-tag{
+    font-size:48px;
+    font-weight:700;
+    letter-spacing: -1px;
+}
+.rub {
+    font-size:30px;
+}
+
+.timer-wrapper {
+    line-height:1;
+    padding:10px;
+    margin:0;
+    background-color: #40503c;
+}
+.timer-caption {
+    font-size:18px;
+    font-weight: 700;
+}
+.timer {
+    font-size:60px;
+    letter-spacing:-1px;
+    padding:0;
+    font-weight:700;
+}
+.time-caption {
+    padding:0;
+}
+.time-caption span {
+    padding:0 15px;
+    font-size:14px;
+}
+.name-caption {
+    border-top:2px solid #fff;
+    font-size: 16px;
+    font-weight:300;
+    padding:10px;
+    line-height: 1;
+}
+.order-form {
+    padding:20px 15px 20px 15px;
+    text-align:left;
+}
+.order-form .form-control {
+    background-color: #f3fcf7;
+    box-shadow: none;
+}
+.order-form .form-control:focus {
+    box-shadow: none;
+    border-color: #405138;
+}
+.order-form .btn, .order-form .btn:focus, .order-form .btn:hover, .order-form .btn:active {
+    background-color:#ff9400;
+    border-color:#ff9400;
+    text-transform:uppercase;
+    font-family: 'Exo 2', sans-serif;
+    font-size:27px;
+    font-weight:700;
+    text-align:center;
+    color:#000;
+    border-radius: 5px;
+    margin:0 auto;
+    width:100%;
+}
+.order-form .btn:hover {
+    background-color: #ff8905;
+    border-color: #ff8905;
+}
+ul.model {
+    padding:0;
+    list-style-type: none;
+}
+ul.model li{
+    font-size:16px;
+    padding:4px 0 2px 20px;
+    list-style:none;
+    background: transparent url("urn:scrapbook:download:error:http://goodmoons.ru/tvg/images/orange-arrow.png") no-repeat scroll center left;
+    text-align:left;
+    line-height:1.1;
+}
+/*Work Block */
+.work-block {
+    background:#ccc url("why-bg3.jpg") repeat;
+}
+.work-col {
+    text-align:center;
+    font-size:16px;
+}
+.work-col p {
+    margin:10px auto 20px auto;
+    max-width:350px;
+    text-align:center;
+}
+.work-col h4 {
+    text-align:center;
+    font-weight:700;
+    margin-top:20px;
+}
+.work-col img {
+    max-width:160px;
+
+}
+
+/*Guarantee Block */
+.guarantee-col {
+    text-align:center;
+    font-size:16px;
+}
+/* Footer */
+.footer {
+    background-color: #374231;
+    color: #bebebe;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 140px;
+    padding-top:10px;
+}
+
+a.politics, a.politics:hover, a.politics:visited, a.politics:active {
+    color: #cecece;
+    font-size:16px;
+    text-decoration: underline;
+    display:block;
+    margin-top:10px;
+}
+
+/*Media */
+
+@media (max-width: 1200px) {
+    body {
+        font-size:17px;
+    }
+    p {
+        margin:15px 0;
+    }
+    h2 {
+        margin-bottom:25px;
+        font-size:30px;
+    }
+    .new-section {
+        padding:40px 0 40px 0;
+    }
+    h1.main-title {
+        font-size:48px;
+        margin:45px 0 0 0;
+    }
+    .top-slogan-text {
+        font-size:30px;
+        margin:45px 0 0 0;
+    }
+    .top-sale {
+        margin:40px 0 20px 0;
+    }
+    .sale-block {
+       height: 125px;
+    }
+    .top-sale p {
+        margin:5px 0 0 0;
+        font-size:22px;
+    }
+    .btn-order, .btn-order:focus, .btn-order:hover, .btn-order:active {
+        margin-right:0;
+    }
+    .video-block {
+        padding-top:45px;
+    }
+    .order-btn p {
+        font-size:24px;
+        padding:5px 14px 5px 14px;
+    }
+    .desc-block {
+        margin-top:10px;
+    }
+    .soldier-col {
+        padding:35px 0 0 0;
+    }
+    .desc-col {
+        padding:20px 15px 15px 15px;
+    }
+    .desc-col ul li {
+        padding:0 0 15px 50px;
+        font-size:16px;
+    }
+    .desc-col p {
+        font-size:16px;
+        margin:0 0 15px 0;
+    }
+    /*Carousel */
+
+    .carousel-thumb-list .carousel-thumb, .carousel-thumb-list2 .carousel-thumb {
+        padding:3px;
+    }
+    .original-block p {
+        font-size:14px;
+    }
+    p.original-package {
+        font-size:16px;
+    }
+    p.original-company {
+        font-size:15px;
+        margin:14px 0 0 0;
+    }
+    .light-order-btn p {
+        color:#000;
+        padding:4px 10px 3px 10px;
+        font-size:20px;
+    }
+    .action-top-block {
+        padding:30px 0;
+    }
+    .action-title {
+        font-size:40px;
+        margin-bottom:10px;
+    }
+    .sale-old-price {
+        font-size:20px;
+    }
+    .sale-new-price {
+        font-size:30px;
+        padding-top:0;
+    }
+    .action-block {
+        padding:10px 0 50px 0;
+    }
+    .action-block ul li{
+        font-size:15px;
+        padding:5px 0 5px 20px;
+    }
+    .action-features {
+        font-size:20px;
+    }
+    h2.bonus-title {
+        padding:30px 0 20px 0;
+    }
+    .bonus-bg {
+        height:120px;
+    }
+    .limit-action {
+        font-size:23px;
+    }
+    .action-block .timer-caption {
+        font-size:16px;
+    }
+    .action-block .timer {
+        font-size:55px;
+    }
+    .action-block .time-caption span {
+        padding:0 10px;
+        font-size:14px;
+    }
+    .delivery-block, .review-text {
+        font-size:14px;
+    }
+    .work-col img {
+        max-height:110px;
+    }
+
+
+}
+@media (max-width: 992px) {
+    body {
+        font-size:14px;
+    }
+    p {
+        margin:12px 0;
+    }
+    h2 {
+        margin-bottom:20px;
+        font-size:25px;
+    }
+    h4 {
+        font-size:16px;
+    }
+    .new-section {
+        padding:30px 0 30px 0;
+    }
+    .top-phone {
+        margin-top:10px;
+        background: transparent url("urn:scrapbook:download:error:http://goodmoons.ru/tvg/images/call.png") no-repeat scroll center top;
+        background-size:contain;
+        height:25px;
+    }
+    h1.main-title {
+        font-size:38px;
+        margin:30px 0 0 0;
+    }
+    .top-slogan-text {
+        font-size:24px;
+        margin:35px 0 0 0;
+    }
+    .top-sale {
+        margin:30px 0 15px 0;
+    }
+    .sale-block {
+         height: 110px;
+
+    }
+    .sale-text-block {
+        padding:5px;
+    }
+    .top-sale p {
+        margin:4px 0 0 0;
+        font-size:18px;
+    }
+    .navbar-inverse .navbar-nav > li > a {
+        font-size:16px;
+        margin-right:0;
+    }
+    .btn-order, .btn-order:focus, .btn-order:hover, .btn-order:active {
+        font-size:16px;
+        margin-top:5px;
+    }
+    .order-call, .order-call:hover, .order-call:active, .order-call:focus {
+        font-size:16px;
+    }
+    .video-block {
+        padding-top:35px;
+    }
+    .video-features-ul {
+        padding-top:6px;
+    }
+    .order-btn p {
+        font-size:20px;
+        padding:4px 12px 3px 12px;
+    }
+    .desc-block {
+        margin-top:0;
+    }
+    .soldier-col {
+        padding:40px 0 0 0;
+    }
+    .desc-col {
+        padding:15px 10px 10px 10px;
+    }
+    .desc-col ul li {
+        padding:0 0 10px 50px;
+        font-size:15px;
+    }
+    .desc-col p {
+        font-size:15px;
+        margin:0 0 20px 0;
+    }
+    .carousel-thumb-list2 {
+        padding:2px 12px;
+    }
+    .carousel-thumb-list2 .carousel-thumb {
+        padding:2px;
+    }
+    .carousel-thumb-list2 .thumbnail {
+        padding:1px;
+    }
+    .features-block ul li {
+        padding:1px 0 10px 50px;
+    }
+    .action-top-block {
+        padding:25px 0;
+    }
+    .action-title {
+        font-size:32px;
+        margin-bottom:10px;
+    }
+    .sale-old-price {
+        font-size:18px;
+    }
+    .sale-new-price {
+        font-size:28px;
+        padding-top:0;
+    }
+    .action-block {
+        padding:10px 0 30px 0;
+    }
+    h2.bonus-title {
+        padding:25px 0 10px 0;
+        font-size:30px;
+        line-height:1.1;
+    }
+    .limit-action {
+        font-size:30px;
+        padding-top:20px;
+        border-top:1px dotted #fff;
+    }
+    .light-order-btn, .light-order-btn:hover, .light-order-btn:active, .light-order-btn:focus {
+        margin-top:10px;
+    }
+    .action-block .carousel {
+        margin-bottom:20px;
+    }
+    .guarantee-col {
+        text-align:center;
+        font-size:14px;
+    }
+    .guarantee-col h4{
+        font-size: 16px;
+    }
+    .why-block {
+        font-size:16px;
+    }
+    .why-block h4 {
+        margin-bottom:15px;
+        font-size:19px;
+    }
+    .work-col {
+        font-size:14px;
+    }
+    .work-col img {
+        max-height:100px;
+    }
+    .form-block {
+        margin-top:15px;
+    }
+    ul.model li{
+        font-size:14px;
+        padding:3px 0 1px 20px;
+    }
+
+}
+@media (max-width: 768px) {
+    body {
+        font-size:16px;
+    }
+    p {
+        margin:15px 0;
+    }
+    .top-phone {
+       padding-top:10px;
+    }
+    .order-btn {
+        margin:30px auto 0 auto;
+    }
+    .amst-bg, .delivery-block .row {
+        background-image:none;
+    }
+    .amst-bg2 {
+        background: transparent url("amst-small-bg.png") no-repeat scroll center center;
+        background-size:contain;
+        height:320px;
+        margin:0 0 20px 0;
+        text-align:center;
+    }
+    .work-col {
+        font-size:14px;
+    }
+    .work-col img {
+        max-height:100px;
+    }
+    .header-text {
+        text-align:center;
+    }
+    h1.main-title {
+        font-size:36px;
+        margin:30px 0 0 0;
+        text-align:center;
+    }
+    .top-slogan-text {
+        font-size:24px;
+        margin:35px 0 0 0;
+    }
+    .top-sale {
+        margin:40px 0 15px 0;
+    }
+    .sale-block {
+         height: 135px;
+        background: transparent url("cirkue.png") no-repeat scroll right center;
+        background-size:contain;
+    }
+    .sale-text-block {
+        padding:0 5px;
+    }
+    .top-sale p {
+        margin:0 0 2px 0;
+        font-size:19px;
+    }
+    .navbar-header {
+        float:none;
+    }
+    .navbar-toggle {
+        float:left;
+        margin-left:5px;
+        margin-right:0;
+    }
+    .btn-order, .btn-order:focus, .btn-order:hover, .btn-order:active {
+        float:right;
+    }
+    h1, h2 {
+        text-align:center;
+    }
+    .desc-block {
+        margin-top:10px;
+    }
+    .soldier-col {
+        padding:10px 30px 0 30px;
+        text-align:center;
+    }
+    .desc-col {
+        padding:25px 10px 10px 10px;
+    }
+    .desc-col ul li {
+        padding:0 0 10px 50px;
+        font-size:16px;
+    }
+    .desc-col p {
+        font-size:16px;
+        margin:0 0 15px 0;
+    }
+    .action-top-block {
+        padding:25px 0;
+        background: #ccc url("urn:scrapbook:download:error:http://goodmoons.ru/tvg/images/dark-watch-bg.jpg") no-repeat scroll center center;
+        background-size:cover;
+    }
+    .action-title {
+        font-size:32px;
+        margin-bottom:10px;
+    }
+    .sale-old-price {
+        font-size:18px;
+        text-align:center;
+    }
+    .sale-new-price {
+        font-size:28px;
+        padding-top:0;
+        text-align:center;
+    }
+    .action-block {
+        padding:20px 0 30px 0;
+        text-align:center;
+    }
+    .features-wrap {
+        margin:0 auto;
+       max-width:350px;
+        padding-bottom:15px;
+    }
+    .action-block ul li{
+        font-size:15px;
+        padding:5px 0 5px 20px;
+    }
+    .action-features {
+        font-size:20px;
+        padding:5px 0 10px 40px;
+    }
+    h2.bonus-title {
+        padding:10px 0 5px 0;
+        font-size:28px;
+        text-align:left;
+    }
+    .limit-action {
+        font-size:30px;
+        padding-top:20px;
+        border-top:1px dotted #fff;
+    }
+    .action-block .timer-caption {
+        font-size:16px;
+    }
+    .light-order-btn, .light-order-btn:hover, .light-order-btn:active, .light-order-btn:focus {
+        margin-top:10px;
+    }
+    .action-block .timer {
+        font-size:55px;
+    }
+    .action-block .time-caption span {
+        padding:0 10px;
+        font-size:14px;
+    }
+    .review {
+        border: 1px solid #998675;
+    }
+    .slider-limit, .carousel-thumb-list {
+        text-align:center;
+    }
+    .thumbs-wrapper, .carousel {
+        margin:0 auto;
+        max-width:500px;
+    }
+    .dopcss{width: auto;}
+
+}
+@media (max-width: 400px) {
+    body {
+        font-size:14px;
+    }
+    .top-sale {
+        margin:40px 0 15px 0;
+    }
+    .sale-block {
+            height: 110px;
+        background: transparent url("cirkue.png") no-repeat scroll right center;
+        background-size:contain;
+    }
+    .sale-text-block {
+        padding:0 5px;
+    }
+    .top-sale p {
+        margin:0 0 2px 0;
+        font-size:17px;
+    }
+    .desc-col {
+        font-size:14px;
+    }
+    .soldier-col {
+        padding:10px 15px 0 15px;
+    }
+    .action-block {
+        padding-top:20px;
+    }
+    .action-title {
+        font-size:28px;
+        margin-bottom:10px;
+    }
+    h2.bonus-title {
+        padding:0 0 0 0;
+        font-size:21px;
+        text-align:left;
+    }
+    .sale-new-price {
+        font-size:24px;
+    }
+    .dopcss{width: auto;}
+
+}
+.imgnozkred{
+        width: 90%;
+}
+.stpricen{    text-decoration: line-through;
+    color: #000;
+    font-size: 100%;
+    top: 35%;
+    display: inline-block;
+        left: 16%;
+    position: absolute;}
+    .newpricen{     color: #fff;
+    font-size: 140%;
+    display: inline-block;
+        left: 13%;
+    top: 52%;
+    position: absolute;}
