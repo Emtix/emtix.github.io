@@ -1,0 +1,22 @@
+.banner-heading h1, .top-count span, .loader-item, .work b, .comparison ul li i, .reviews .content-wrapper .client-name span, .theme-color{
+  	color:#01a0e3!important;
+  }
+
+
+.theme-title h2:after, .hvr-rectangle-out:after, .owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span, .scroll-top:hover, .button, .comparison ul li:hover i{
+  	background-color: #01a0e3;
+  }
+
+.theme-title h2.white:after{
+    background-color: #fff;
+}
+
+.top-count, .comparison ul li i, .reviews .content-wrapper .client-name img{
+    border-color:#01a0e3;
+  }
+
+.white{
+    color:#ffffff!important;
+}
+
+

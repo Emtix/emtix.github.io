@@ -1,0 +1,436 @@
+/*==========  ЭКРАННЫЙ МЕТОД ==========
+max-width	Правило применяется к браузеру, ширина которого меньше значения, указанного в запросе.*/
+
+
+/* Большие устройства, широкоформатные экраны */
+
+@media only screen and (max-width: 1200px) {
+    #center img {
+      width: 100%;
+    }
+    #center {
+        width: 100%;
+    }
+  
+    .line-center {
+        background: none;
+    }
+    .scroll-top {
+        bottom: 30px;
+        right: 30px
+    }
+    .action .content {
+        float: none;
+        width: 100%;
+    }
+    .action .order-form {
+        margin-left: -50px;
+    }
+    .action .img-rulon {
+        display: none;
+    }
+    .reviews .content-wrapper {
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 1000px) {
+    .phones-block {
+        float: none;
+        margin: 0 auto;
+    }
+    .logo .pull-left {
+        float: none!important;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .descript {
+        text-align: center;
+        float: none;
+        width: 100%;
+        top: 10px;
+        left: 0;
+        right: 0;
+    }
+    .work em.process-title {
+        margin: 0px auto 20px auto;
+    }
+    .process-icon:after {
+        display: none;
+        content: none;
+    }
+}
+
+/* Средние устройства, Настольные Компьютеры */
+
+@media only screen and (max-width: 992px) {
+    
+    .process .last-row .bar:nth-child(3):before, .firs-row .bar:nth-child(3):before, .process .bar:before{
+      content:none; 
+    }
+    
+    .work a.theme-button{
+    width: 100%; 
+    max-width:300px;
+    margin-top:0px;
+        margin-bottom:30px;
+}
+    
+    .service .left-column .texti span img{
+            margin: 0 auto 5px 0;
+    }
+    .service .left-column .texti {
+    text-align: left;
+}
+    
+    .doctor{
+        width: 90%;
+        bottom: -160px;
+    }
+    
+    
+    .order-block .imgviaila{
+        display:none;
+    }
+    .order-form{
+        width:95%;
+    }
+     .order-block .visible-sm img{
+        margin:0 auto;
+    }
+    .two-block ul li{
+        width:33%;
+        float:left;
+        min-width:200px;
+    }
+      .two-block ul{
+          left:0;
+          right:0;
+    margin: 0 auto 30px auto;
+    width: 100%;
+    overflow: hidden;
+    }
+    .order-block .order-form{
+        margin:0 auto;
+    }
+     .order-block{
+    background: #07a7e3;
+    background: -webkit-gradient(linear, left top, right top, from(#07a7e3), to(#37d6c0));
+    background: -webkit-linear-gradient(left, #07a7e3, #37d6c0);
+    background: -moz-linear-gradient(left, #07a7e3, #37d6c0);
+    background: -ms-linear-gradient(left, #07a7e3, #37d6c0);
+    background: -o-linear-gradient(left, #07a7e3, #37d6c0);
+    background: linear-gradient(to right, #07a7e3, #37d6c0);
+    }
+   
+ 
+    .action {
+        background-repeat: repeat;
+    }
+    .action .order-form {
+        margin: 0 auto;
+    }
+    .bottom-banner .form {
+        width: 100%;
+    }
+    #form6 .success {
+        width: 300px;
+        height: 180px;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+    .materials .order-form {
+        margin: 0 auto;
+    }
+    .reviews .content-wrapper {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 900px) {}
+@media only screen and (max-width: 800px) {
+    .video_item {
+        display: none;
+    }
+    .phones-block {
+        margin: 20px auto 0 auto;
+        float: none;
+    }
+}
+
+/* Небольшие устройства, Планшеты */
+
+@media only screen and (max-width: 768px) {
+    .map-detail{
+        position:relative!important;
+        margin-bottom: 30px;
+            margin-top: 30px;
+        top:0px;
+    } 
+    
+    
+     .service .left-column .texti,  .service .right-column .texti{
+    text-align: center;
+}
+    .service .left-column .texti span img, .service .right-column .texti span img{
+    margin: 0 auto 10px auto;
+}
+}
+@media only screen and (max-width: 640px) {}
+@media only screen and (max-width: 630px) {
+    .two-block ul li{
+        width:100%;
+        float:none;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .scroll-top {
+        right: 5px;
+        bottom: 10px;
+    }
+    
+    .back-procent .number-step{
+    padding-left:0px;
+}
+    
+    .back-procent a.theme-button{
+        width:100%;
+    }
+}
+@media only screen and (max-width: 535px) {
+     .doctor{
+        display:none;
+    }
+    .order-form .content-form{
+        width:100%;
+    }
+    .order-form{
+        background-position: center top;
+    }
+}
+
+/* Очень маленькие устройства, Телефоны */
+
+@media only screen and (max-width: 480px) {
+    .scroll-top {
+        display: none!important;
+    }
+}
+@media only screen and (max-width: 414px) {
+
+.process .bar{
+padding-left:15px;
+padding-right:15px;
+}
+    
+    .process .process-img{
+        width:95%;
+    }
+    
+    .about a.theme-button{
+        width:90%;
+    }
+    
+    .action .order-form{
+        width:100%;
+    }
+    .action .order-form .form-group{
+        width:100%;
+        max-width: 277px;
+    }
+    
+    .action .col-xs-12{
+        padding:0px;
+    }
+    
+    #center .theme-button{
+    max-width:100%;
+}
+   
+     .two-block ul li{
+        width:100%;
+    }
+      .two-block ul{
+           margin: 0 auto 30px auto;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    }
+    
+    #center .theme-button {
+        margin-bottom: 30px;
+    }
+    #center {
+        top: 0px;
+    }
+    .box-modal {
+        width: 100%!important;
+    }
+    .arcticmodal-container_i2 {
+        padding: 10px!important;
+    }
+    .scroll-top {
+        background-color: transparent!important;
+        display: block;
+        color: #05b4eb;
+    }
+    .scroll-top:after {
+        display: none;
+    }
+    .box-modal {
+        width: 100%!important
+    }
+    .arcticmodal-container_i2 {
+        padding: 10px!important
+    }
+    .arcticmodal-container_i{
+        width:100%;
+        margin:0 auto;
+    }
+}
+
+/* Свои размеры, iPhone Retina */
+
+@media only screen and (max-width: 380px) {
+    .ClassyCountdown-value {
+        margin-top: -10px !important;
+    }
+    .ClassyCountdown-value div {
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    
+    .order-form .theme-title h2 {
+    font-size: 25px;
+}
+    
+    .comparison ul {
+        margin-left: 0px;
+    }
+    .order-form .arctform input,
+    .order-form .arctform select {
+        min-width: 100%;
+    }
+    .order-form {
+        background: #0050aa;
+        border-radius: 10px;
+        background-position: center center;
+        width: 100%;
+        height:auto;
+        padding-bottom:50px;
+    }
+    .materials h3 {
+        font-size: 18px;
+        margin-top: 25px;
+        margin-bottom: 5px;
+    }
+    h2,
+    .theme-title h2 {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 360px) {}
+@media only screen and (max-width: 330px) {
+    .ClassyCountdown-wrapper .ClassyCountdown-value {
+        width: 100%;
+        line-height: 0.8em;
+    }
+    .action .mt-80 {
+        margin: 0!important;
+    }
+    .order-form {
+        padding: 15px 18px;
+    }
+    .bottom-banner a.theme-button {
+        width: 100%!important;
+    }
+    .bottom-banner .form-group {
+        width: 100%!important;
+    }
+}
+
+/*** МОБИЛЬНЫЙ МЕТОД 
+min-width	Правило применяется к браузеру, ширина которого больше значения, указанного в запросе.***/
+
+
+/*==========  Мобильные разрешения  ==========*/
+
+
+/* Свои, iPhone Retina */
+
+@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 320px) {}
+
+/* Очень маленькие устройства, Телефоны */
+
+@media only screen and (min-width: 480px) {}
+
+/* Маленькие устройства, Планшеты */
+
+@media only screen and (min-width: 768px) {
+    .boxed {
+        width: 100%;
+    }
+}
+
+/* Средние устройства, Мониторы */
+
+@media only screen and (min-width: 992px) {}
+
+/* Большие устройства, Широкоформатные экраны */
+
+@media only screen and (min-width: 1200px) {
+    .boxed {
+        max-width: 1000px;
+    }
+}
+
+/**** двойное условие ***/
+
+@media screen and (min-width: 750px) and (max-width: 850px) {}
+
+/* ИЗМЕНЕНИЕ НАЧАЛЬНОЙ ЗАГРУЗКИ НАВИГАЦИИ ДЛЯ 950px
+
+@media (max-width: 950px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-form {
+        padding: 10px 15px;
+        margin-top: 8px;
+        margin-right: -15px;
+        margin-bottom: 8px;
+        margin-left: -15px;
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+        -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
+        width: auto;
+        float: none!important;
+    }
+}*/

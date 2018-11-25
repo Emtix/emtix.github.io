@@ -1,0 +1,205 @@
+.arctform label {
+    display: block;
+    margin: 0 auto 0 auto;
+    font-size: 12px;
+    font-weight: normal;
+    width: 100%;
+    position: relative;
+}
+label.message textarea {
+    width: 100%;
+    height: 200px;
+}
+.box-modal h3 {
+    font-weight: 600;
+}
+.arctform .error-empty {
+    color: #FF0000;
+    display: none;
+    font-size: 20px;
+    line-height: 22px;
+    width: auto;
+    position: absolute;
+    z-index: 999;
+    right: 10px;
+    top: 12px;
+    float: left;
+    font-weight: 300;
+}
+.arctform .form-group {
+    width: 277px;
+    margin: 0 auto;
+}
+
+.arctform input, .arctform select{
+           height:42px;
+}
+
+.arctform .theme-button {
+    width: 100%;
+}
+.arctform .form-group {
+    margin-bottom: 20px;
+}
+.arctform .success {
+    font-size: 13px;
+    font-family: Arial;
+    color: #005217;
+    border: none;
+    display: none;
+    position: absolute;
+    background: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    z-index: 9999;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /*Firefox 1-3*/
+    -webkit-box-sizing: border-box;
+    /* Safari */
+    height: auto;
+    min-height: 180px;
+    width: 100%;
+}
+
+
+
+
+#form1 .success {
+    min-height: 205px;
+}
+#form2 .success {
+    min-height: 400px;
+}
+#form4 .success {
+    min-height: 225px;
+}
+#form3 .success {
+    min-height: 260px;
+}
+
+#form6 .success {
+   min-height: auto;
+}
+
+
+
+
+.safe-text {
+    font-size: 12px;
+    margin: 10px 0 0 0;
+}
+.arctform .safe-text {
+    color: #a3a3a3;
+}
+.box-modal_close {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #000;
+    cursor: pointer;
+}
+.box-modal_close:hover,
+.box-modal_close:focus {
+    text-decoration: none!important;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .4;
+    filter: alpha(opacity=40)
+}
+.arctform {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.success_wrapper {
+    position: relative;
+}
+#loading {
+    text-align: center;
+    display: none;
+}
+.arctform label.error {
+    display: none;
+    color: #FBEA00;
+    position: absolute;
+}
+.file-input-name {
+    color: #fff;
+}
+.file-input-wrapper {
+    padding: 6px 12px !important;
+    font-size: 14px !important;
+    color: #999 !important;
+}
+p.help-block {
+    line-height: 15px;
+    margin: 5px 0 0 0;
+    color: #a3a3a3;
+}
+.arctform .btn {
+    width: 100%;
+    border: 0px;
+    background: #FFA100;
+}
+
+/* do not group these rules */
+
+*::-webkit-input-placeholder {
+    font-family: inherit;
+    font-weight: 300;
+    color: #9c9c9c;
+    font-size: 15px;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    font-weight: 300;
+    font-family: inherit;
+    color: #9c9c9c;
+    font-size: 15px;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    font-weight: 300;
+    font-family: inherit;
+    color: #9c9c9c;
+    font-size: 15px;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    font-weight: 300;
+    font-family: inherit;
+    color: #9c9c9c;
+    font-size: 15px;
+}
+
+.form-group.email{
+position:relative;
+}
+/*////////////////////////////*/
+#form1 i.load-send{line-height: 1.0 !important;}
+
+a.load{
+    color: #fff!important;
+    background: #fff!important;
+} 
+a.load i{
+    color: #01a0e3!important;
+}
+
+.arctform i.load-send {
+    display: none;
+    font-size: 2.0em !important;
+    position: absolute !important;
+       right: 0 !important;
+    left: 0!important;
+    line-height: 1.0 !important;
+    padding: 0px !important;
+        margin: 0px auto !important;
+    top: 5px !important;
+    text-align: center!important;
+    float: none!important;
+}
